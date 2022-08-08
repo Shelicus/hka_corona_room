@@ -1,21 +1,6 @@
 import sqlite3
 
 
-def anzeigen(ID):
-    try:
-        conn = sqlite3.connect('Zustands_Datenbank.dp')
-        c = conn.cursor()
-        with conn:
-            c.execute("SELECT * FROM speicher_zustand WHERE id=:id", {'id': ID})
-            daten = c.fetchall()
-        conn.commit()
-        conn.close()
-        return daten
-    except Exception as fehler11:
-        print('Fehler 11: \n')
-        print(fehler11)
-        return -1
-
 def anzeigenbyTag(Tag):
     try:
         conn = sqlite3.connect('Zustands_Datenbank.dp')
@@ -91,4 +76,3 @@ def delete_liste():
         print('Fehler 14: \n')
         print(fehler14)
         return -1
-
