@@ -22,11 +22,12 @@ Dieses Skript habe ich entwickelt um sich nicht mehr in den Räumen an der Hochs
 
 ### Quick-Start-Vorbereitung:
 1. Bot Erstellund und mit Adminrechten auf den Server einladen
-2. Eingabestelle der Uhrzeiten in der Liste muss mit der Eingabe der Raumnummer übereinstimme 
-3. BOT-Token eingeben im Script
-4. URL-Anpassen
-5. Channel IDs eingeben
+2. BOT-Token eingeben im Script
+3. URL-Anpassen
+4. Channel IDs eingeben
+5. Libs installieren
 6. BOT-Starten
+7. Bot befehl $help in den cahnnel schreiben für funktions anzeige
 
 > Ab hier kein Quick-Vorbereitung mehr!
 
@@ -69,7 +70,7 @@ Dieses Skript habe ich entwickelt um sich nicht mehr in den Räumen an der Hochs
 ### Kompiler Version:
 |Kompiler|Version|Test Ergebnis|
 |:---:|:---:|:---:|
-|Python| 3.9 |![funk](https://img.shields.io/badge/checks-passing-green)|
+|Python| 3.9 |![funk](https://img.shields.io/badge/checks-not%20tested-red)|
 |Python| 3.10 |![funk](https://img.shields.io/badge/checks-passing-green)|
 |Python| aktuellste Version |![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
 
