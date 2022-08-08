@@ -3,7 +3,7 @@ import sqlite3
 
 def anzeigen(ID):
     try:
-        conn = sqlite3.connect('Path')
+        conn = sqlite3.connect('Zustands_Datenbank.dp')
         c = conn.cursor()
         with conn:
             c.execute("SELECT * FROM speicher_zustand WHERE id=:id", {'id': ID})
@@ -16,9 +16,24 @@ def anzeigen(ID):
         print(fehler11)
         return -1
 
+def anzeigenbyTag(Tag):
+    try:
+        conn = sqlite3.connect('Zustands_Datenbank.dp')
+        c = conn.cursor()
+        with conn:
+            c.execute("SELECT * FROM speicher_zustand WHERE tag=:tag", {'tag': Tag})
+            daten = c.fetchall()
+        conn.commit()
+        conn.close()
+        return daten
+    except Exception as fehler17:
+        print('Fehler 17: \n')
+        print(fehler17)
+        return -1
+
 def alles_anzeigen():
     try:
-        conn2 = sqlite3.connect('Path')
+        conn2 = sqlite3.connect('Zustands_Datenbank.dp')
         d = conn2.cursor()
         with conn2:
             d.execute("SELECT * FROM speicher_zustand")
@@ -31,13 +46,13 @@ def alles_anzeigen():
         print(fehler15)
         return -1
 
-def hinzufuegen(Fach, ID, UhrzeitTag, Raum):
+def hinzufuegen(Fach, ID, Uhrzeit, Tag, Raum, Blocker):
     try:
-        conn = sqlite3.connect('Path')
+        conn = sqlite3.connect('Zustands_Datenbank.dp')
         c = conn.cursor()
         with conn:
-            c.execute("INSERT INTO speicher_zustand VALUES (:fach, :id, :uhrzeittag, :raum)",
-                      {'fach': Fach, 'id': ID, 'uhrzeittag': UhrzeitTag, 'raum': Raum})
+            c.execute("INSERT INTO speicher_zustand VALUES (:fach, :id, :uhrzeit, :tag, :raum, :blocker)",
+                      {'fach': Fach, 'id': ID, 'uhrzeit': Uhrzeit, 'tag': Tag, 'raum': Raum, 'blocker': Blocker})
         conn.commit()
         conn.close()
         return 1
@@ -47,13 +62,13 @@ def hinzufuegen(Fach, ID, UhrzeitTag, Raum):
         return -1
 
 
-def update_datenbank(Fach, ID, UhrzeitTag, Raum):
+def update_datenbank(Fach, ID, Uhrzeit, Tag, Raum, Blocker):
     try:
-        conn = sqlite3.connect('Path')
+        conn = sqlite3.connect('Zustands_Datenbank.dp')
         c = conn.cursor()
         with conn:
-            c.execute("""UPDATE speicher_zustand SET fach = :fach, raum = :raum, uhrzeittag = :uhrzeittag
-                        WHERE id = :id""", {'fach': Fach, 'id': ID, 'uhrzeittag': UhrzeitTag, 'raum': Raum})
+            c.execute("""UPDATE speicher_zustand SET fach = :fach, raum = :raum, uhrzeit = :uhrzeit, tag = :tag, blocker = :blocker
+                        WHERE id = :id""", {'fach': Fach, 'id': ID, 'uhrzeit': Uhrzeit, 'tag':Tag, 'raum': Raum, 'blocker':Blocker})
         conn.commit()
         conn.close()
         return 1
@@ -65,7 +80,7 @@ def update_datenbank(Fach, ID, UhrzeitTag, Raum):
 
 def delete_liste():
     try:
-        conn = sqlite3.connect('Path')
+        conn = sqlite3.connect('Zustands_Datenbank.dp')
         c = conn.cursor()
         with conn:
             c.execute("DELETE FROM speicher_zustand")
@@ -76,3 +91,4 @@ def delete_liste():
         print('Fehler 14: \n')
         print(fehler14)
         return -1
+
