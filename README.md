@@ -4,7 +4,7 @@
 
 ## Beschreibung:
 Dieses Skript habe ich entwickelt um sich nicht mehr in den Räumen an der Hochschule anmelden zu müssen. Das Skript logt einen Automatisch zur Angegebenen Zeit in dem entsprechenden Raum ein und bestätigt das durch eine Nachricht auf Discord. Man sollte jedoch aufpassen, das Skript logt einen immer ein, auch wenn man eigentlich noch mit einem Kater im Bett liegt 😉
-Dieses Repository wird nicht mehr gewartet und ist nur noch in read-only. 
+Dieses Repository wird nicht mehr gewartet und befindet sich in read-only. 
 
 ## Verzeichnis:
 > **Schnellster Start:** Quick-Start-Vorbereitung
