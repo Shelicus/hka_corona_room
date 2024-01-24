@@ -4,6 +4,7 @@
 
 ## Beschreibung:
 Dieses Skript habe ich entwickelt um sich nicht mehr in den Räumen an der Hochschule anmelden zu müssen. Das Skript logt einen Automatisch zur Angegebenen Zeit in dem entsprechenden Raum ein und bestätigt das durch eine Nachricht auf Discord. Man sollte jedoch aufpassen, das Skript logt einen immer ein, auch wenn man eigentlich noch mit einem Kater im Bett liegt 😉
+Dieses Repository wird nicht mehr gewartet und ist nur noch in read-only. 
 
 ## Verzeichnis:
 > **Schnellster Start:** Quick-Start-Vorbereitung
@@ -80,7 +81,7 @@ Dieses Skript habe ich entwickelt um sich nicht mehr in den Räumen an der Hochs
 ## Licenze:
 
 Die Lizenz zur weiter Verwendung dieses Projektes, wird durch das **Creative Common** Model angegeben. 
-Bei Ablehnung jeglicher Verwendung durch meinerseits mit den Piktogrammen oder Sie möchten das Projekt in einer Form verwenden, die nicht hier genannt wurde, muss vor 
+Bei Ablehnung jeglicher Verwendung durch meinerseits mit den Piktogrammen oder Sie möchten das Projekt in einer Form verwenden die nicht hier genannt wurde, muss vor 
 der Benutzung des Projektes die Zustimmung eingeholt werden.
 
 |Verwendet|Piktogramm|Bezeichnung|Verlinkung|
