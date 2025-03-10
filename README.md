@@ -1,10 +1,8 @@
 # Login für Corona an der Hochschule Karlsruhe
 
-
-
 ## Beschreibung:
-Dieses Skript habe ich entwickelt um sich nicht mehr in den Räumen an der Hochschule anmelden zu müssen. Das Skript logt einen Automatisch zur Angegebenen Zeit in dem entsprechenden Raum ein und bestätigt das durch eine Nachricht auf Discord. Man sollte jedoch aufpassen, das Skript logt einen immer ein, auch wenn man eigentlich noch mit einem Kater im Bett liegt 😉
-Dieses Repository wird nicht mehr gewartet und befindet sich in read-only. 
+Dieses Skript habe ich entwickelt, um sich nicht mehr in den Räumen an der Hochschule anmelden zu müssen. Das Skript loggt einen automatisch zur angegebenen Zeit in den entsprechenden Raum ein und bestätigt dies durch eine Nachricht auf Discord. Man sollte jedoch aufpassen, dass das Skript einen immer einloggt, auch wenn man eigentlich an diesem Tag nicht kommt. 😉
+Dieses Repository wird nicht mehr gewartet und befindet sich im "Read-Only"-Zustand. 
 
 ## Verzeichnis:
 > **Schnellster Start:** Quick-Start-Vorbereitung
@@ -12,85 +10,83 @@ Dieses Repository wird nicht mehr gewartet und befindet sich in read-only.
 * [Verzeichnis](#Verzeichnis)
 * [Vorbereitung](#Vorbereitung)
   * [Quick-Start-Vorbereitung](#Quick-Start-Vorbereitung)
-  * [Weitere Vorbereitung](#Weitere-Vorbereitung)
+  * [Weitere-Vorbereitung](#Weitere-Vorbereitung)
 * [Kompatibilität](#Kompatibilität)
-  * [Client Betriebsysteme](#Client-Betriebsysteme)
-  * [Server Betriebsysteme](#Server-Betriebsysteme)
-  * [Komiler Version](#Kompiler-Version)
-* [Licenze](#Licenze)
+  * [Client-Betriebssysteme](#Client-Betriebssysteme)
+  * [Server-Betriebssysteme](#Server-Betriebssysteme)
+  * [Kompiler-Version](#Kompiler-Version)
+* [Lizenz](#Lizenz)
 
 ## Vorbereitung:
 
 ### Quick-Start-Vorbereitung:
-1. Bot Erstellund und mit Adminrechten auf den Server einladen
-2. BOT-Token eingeben im Script
-3. URL-Anpassen
-4. Channel IDs eingeben
-5. Libs installieren
-6. BOT-Starten
-7. Bot befehl $help in den cahnnel schreiben für funktions anzeige
+1. Bot erstellen und mit Adminrechten auf den Server einladen
+2. BOT-Token im Script eingeben
+3. URL anpassen
+4. Channel-IDs eingeben
+5. Libraries installieren
+6. Bot starten
+7. Den Befehl `$help` in den Channel schreiben, um die Funktionsanzeige zu sehen
 
-> Ab hier kein Quick-Vorbereitung mehr!
+> Ab hier keine Quick-Start-Vorbereitung mehr!
 
 ### Weitere Vorbereitung:
-> Keine weitere Vorbereitung
+> Keine weitere Vorbereitung notwendig.
 
 ## Kompatibilität:
 
-### Client Betriebsysteme:
-|Betriebsystem|Version|Test Ergebnis|
+### Client-Betriebssysteme:
+| Betriebssystem | Version | Test-Ergebnis |
 |:---:|:---:|:---:|
-|Windows|Windows 10|![funk](https://img.shields.io/badge/checks-passing-green)|
-|Windows|Windows 11|![funk](https://img.shields.io/badge/checks-passing-green)|
-|Arch Linux|aktuelleste Version|![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
-|CentOS|aktuelleste Version|![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
-|Debian|aktuelleste Version|![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
-|Elementary OS|aktuelleste Version|![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
-|Fedora|aktuelleste Version|![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
-|Gentoo Linux|aktuelleste Version|![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
-|Kali Linux|aktuelleste Version|![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
-|macOS Mojave|aktuelleste Version|![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
-|macOS High Sierra|aktuelleste Version|![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
-|macOS Sierra|aktuelleste Version|![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
-|OS X El Capitan|aktuelleste Version|![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
+| Windows | Windows 10 | ![funk](https://img.shields.io/badge/checks-passing-green) |
+| Windows | Windows 11 | ![funk](https://img.shields.io/badge/checks-passing-green) |
+| Arch Linux | Aktuellste Version | ![funk_n](https://img.shields.io/badge/checks-not%20tested-red) |
+| CentOS | Aktuellste Version | ![funk_n](https://img.shields.io/badge/checks-not%20tested-red) |
+| Debian | Aktuellste Version | ![funk_n](https://img.shields.io/badge/checks-not%20tested-red) |
+| Elementary OS | Aktuellste Version | ![funk_n](https://img.shields.io/badge/checks-not%20tested-red) |
+| Fedora | Aktuellste Version | ![funk_n](https://img.shields.io/badge/checks-not%20tested-red) |
+| Gentoo Linux | Aktuellste Version | ![funk_n](https://img.shields.io/badge/checks-not%20tested-red) |
+| Kali Linux | Aktuellste Version | ![funk_n](https://img.shields.io/badge/checks-not%20tested-red) |
+| macOS Mojave | Aktuellste Version | ![funk_n](https://img.shields.io/badge/checks-not%20tested-red) |
+| macOS High Sierra | Aktuellste Version | ![funk_n](https://img.shields.io/badge/checks-not%20tested-red) |
+| macOS Sierra | Aktuellste Version | ![funk_n](https://img.shields.io/badge/checks-not%20tested-red) |
+| OS X El Capitan | Aktuellste Version | ![funk_n](https://img.shields.io/badge/checks-not%20tested-red) |
 
 > Wurde getestet: ![funk](https://img.shields.io/badge/checks-passing-green) | Wurde noch nicht getestet: ![funk_n](https://img.shields.io/badge/checks-not%20tested-red)
 
 #
-### Server Betriebsysteme:
-|Betriebsystem|Version|Test Ergebnis|
+### Server-Betriebssysteme:
+| Betriebssystem | Version | Test-Ergebnis |
 |:---:|:---:|:---:|
-|Ubuntu|aktuellste Version|![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
-|Debian|aktuellste Version|![funk](https://img.shields.io/badge/checks-passing-green)|
-|Windows Server| aktuellste Version|![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
+| Ubuntu | Aktuellste Version | ![funk_n](https://img.shields.io/badge/checks-not%20tested-red) |
+| Debian | Aktuellste Version | ![funk](https://img.shields.io/badge/checks-passing-green) |
+| Windows Server | Aktuellste Version | ![funk_n](https://img.shields.io/badge/checks-not%20tested-red) |
 
 > Wurde getestet: ![funk](https://img.shields.io/badge/checks-passing-green) | Wurde noch nicht getestet: ![funk_n](https://img.shields.io/badge/checks-not%20tested-red)
 
 #
 
-### Kompiler Version:
-|Kompiler|Version|Test Ergebnis|
+### Kompiler-Version:
+| Kompiler | Version | Test-Ergebnis |
 |:---:|:---:|:---:|
-|Python| 3.9 |![funk](https://img.shields.io/badge/checks-not%20tested-red)|
-|Python| 3.10 |![funk](https://img.shields.io/badge/checks-passing-green)|
-|Python| aktuellste Version |![funk_n](https://img.shields.io/badge/checks-not%20tested-red)|
+| Python | 3.9 | ![funk](https://img.shields.io/badge/checks-not%20tested-red) |
+| Python | 3.10 | ![funk](https://img.shields.io/badge/checks-passing-green) |
+| Python | Aktuellste Version | ![funk_n](https://img.shields.io/badge/checks-not%20tested-red) |
 
 > Wurde getestet: ![funk](https://img.shields.io/badge/checks-passing-green) | Wurde noch nicht getestet: ![funk_n](https://img.shields.io/badge/checks-not%20tested-red)
 
+## Lizenz:
 
-## Licenze:
+Die Lizenz zur weiteren Verwendung dieses Projektes wird durch das **Creative Commons**-Modell festgelegt. 
+Sollte eine Nutzung in einer Weise erfolgen, die nicht durch die unten aufgeführten Piktogramme oder diese Lizenz gedeckt ist, muss vor der Nutzung des Projektes die Zustimmung eingeholt werden.
 
-Die Lizenz zur weiter Verwendung dieses Projektes, wird durch das **Creative Common** Model angegeben. 
-Bei Ablehnung jeglicher Verwendung durch meinerseits mit den Piktogrammen oder Sie möchten das Projekt in einer Form verwenden die nicht hier genannt wurde, muss vor 
-der Benutzung des Projektes die Zustimmung eingeholt werden.
-
-|Verwendet|Piktogramm|Bezeichnung|Verlinkung|
+| Verwendet | Piktogramm | Bezeichnung | Verlinkung |
 |:---:|:---:|:---:|:---:|
-|:x:|![Licenze_eins](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png)|Namensnennung 4.0 International|[Details](https://creativecommons.org/licenses/by/4.0/legalcode.de)|
-|:x:|![Licenze_zwei](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)|Namensnennung-Share Alike 4.0 International|[Details](https://creativecommons.org/licenses/by-sa/4.0/legalcode.de)|
-|:x:|![Licenze_drei](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nd.png)|Namensnennung-Keine Bearbeitungen 4.0 International|[Details](https://creativecommons.org/licenses/by-nd/4.0/legalcode.de)|
-|:x:|![Licenze_vier](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.eu.png)|Namensnennung-Nicht kommerziell 4.0 International|[Details](https://creativecommons.org/licenses/by-nc/4.0/legalcode.de)|
-|:heavy_check_mark:|![Licenze_fünf](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.eu.png)|	Namensnennung-Nicht kommerziell-Share Alike 4.0 International|[Details](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de)|
-|:x:|![Licenze_sex](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.eu.png)|	Namensnennung-Nicht kommerziell-Keine Bearbeitungen 4.0 International|[Details](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.de)|
+| :x: | ![Lizenz_eins](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png) | Namensnennung 4.0 International | [Details](https://creativecommons.org/licenses/by/4.0/legalcode.de) |
+| :x: | ![Lizenz_zwei](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png) | Namensnennung-Share Alike 4.0 International | [Details](https://creativecommons.org/licenses/by-sa/4.0/legalcode.de) |
+| :x: | ![Lizenz_drei](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nd.png) | Namensnennung-Keine Bearbeitungen 4.0 International | [Details](https://creativecommons.org/licenses/by-nd/4.0/legalcode.de) |
+| :x: | ![Lizenz_vier](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.eu.png) | Namensnennung-Nicht kommerziell 4.0 International | [Details](https://creativecommons.org/licenses/by-nc/4.0/legalcode.de) |
+| :heavy_check_mark: | ![Licenze_fünf](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.eu.png) | Namensnennung-Nicht kommerziell-Share Alike 4.0 International | [Details](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de) |
+| :x: | ![Lizenz_sechs](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.eu.png) | Namensnennung-Nicht kommerziell-Keine Bearbeitungen 4.0 International | [Details](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.de) |
 
-> Verwendete Licenze: :heavy_check_mark: Nicht verwendete Licenze: :x:
+> Verwendete Lizenz: :heavy_check_mark: Nicht verwendete Lizenzen: :x:
